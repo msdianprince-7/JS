@@ -37,3 +37,58 @@ const myFunction= function(){
 }
 
 console.log(typeof myFunction);
+
+
+
+
+// ******************************************************
+
+
+// Stack (Primitive) = jo bhi variable declare kara uska copy milta hai 
+
+
+
+// Heap (Non primitive )  = jo bhi hota hai refernece mein hota hai original valyue mein changge hoga 
+
+
+let myName = "Priyansh "
+let anotherName = myName
+anotherName = "princu"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@sbi"
+}
+
+let userTwo = userOne
+
+userTwo.email="prprprp@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
